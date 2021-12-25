@@ -1,0 +1,19 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "tienda del bicho",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Ecommerce-site"
+  },
+  "author": "Luis y Ema",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.1.0"
+  }
+}
