@@ -18,38 +18,21 @@ h1 {
   color: #e44b45;
   font-weight: 100;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .introduction1 {
+  font-size: 1.5rem;
   margin-left: 10px;
   text-align: left;
-  width: 400px;
+  width: 550px;
+  font-weight: 100;
 }
 .introduction2 {
+  font-size: 1.5rem;
   margin-right: 10px;
   text-align: right;
-  width: 400px;
-}
-
-.slide-container {
-  scroll-snap-type: x mandatory;
-  overflow-x: scroll;
-  display: flex;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-.slide {
-  scroll-snap-align: initial;
-  min-width: 100vw;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slideimage {
-  width: 100%;
-  height: 100%;
+  width: 550px;
+  font-weight: 100;
 }
 
 .button {
@@ -67,7 +50,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: 500;
-  color: #000;
+  color: #e44b45;
   background-color: #fff;
   border: none;
   border-radius: 45px;
