@@ -61,6 +61,7 @@
   .topnav .search-container {
     float: none;
     position: initial;
+    width: 100vw;
   }
   .topnav a,
   .topnav input[type="text"],
@@ -71,8 +72,10 @@
     width: 100%;
     margin: 0;
     padding: 14px;
+    border-radius: 0;
   }
   .topnav input[type="text"] {
     border: 1px solid #ccc;
+    border-radius: 0;
   }
 }
