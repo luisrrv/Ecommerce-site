@@ -5,11 +5,11 @@ const fetchApi = async () => {
     const response = await fetch('https://fakestoreapi.com/products');
     if(response.ok) {
       const jsonResponse = await response.json();
-      console.log(jsonResponse);
+      return response
     }
   } catch (error) {
     console.log(error)
   }
 }
 
-fetchApi();
+export default fetchApi;

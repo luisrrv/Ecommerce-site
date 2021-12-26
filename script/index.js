@@ -1,1 +1,1 @@
-import './searchBar.js'
+console.log('hello world')
