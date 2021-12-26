@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "tienda del bicho",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "test"
   },
@@ -14,6 +13,7 @@
   "author": "Luis y Ema",
   "license": "ISC",
   "dependencies": {
+    "@tarekraafat/autocomplete.js": "^10.2.6",
     "node-fetch": "^3.1.0"
   }
 }
