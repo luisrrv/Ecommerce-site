@@ -7,5 +7,8 @@ console.log(searchBarInput);
 console.log(searchButton);
 
 fetchApi().then((response) => {
-  console.log(response)
+  const newArray = response.map((element) => {
+   return element.title
+  });
+  console.log(newArray)
 });
