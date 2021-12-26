@@ -6,4 +6,6 @@ const searchButton = document.querySelector('.search-button');
 console.log(searchBarInput);
 console.log(searchButton);
 
-fetchApi();
+fetchApi().then((response) => {
+  console.log(response)
+});
