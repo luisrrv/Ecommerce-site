@@ -13,5 +13,3 @@ const fetchApi = async () => {
 }
 
 fetchApi();
-
-export default fetchApi;
