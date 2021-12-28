@@ -16,12 +16,12 @@
 
 @media (max-width: 28.75em) {
   .products-section-header {
-    font-size: 4rem;
+    font-size: 6rem;
   }
 }
 .products {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 0.2rem;
   width: 100%;
   max-width: 1280px;
@@ -39,12 +39,13 @@
   padding: 50px;
 }
 
-@media (max-width: 30.625em) {
+@media (max-width: 75em) {
   .products {
-    padding: 6rem 1rem;
+    padding: 1rem 1rem;
   }
 
   .product-container {
     grid-template-columns: 1fr;
+    font-size: 200%;
   }
 }
