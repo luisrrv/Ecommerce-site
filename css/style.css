@@ -22,7 +22,7 @@ h1 {
 }
 .introduction2 {
   font-size: 1.5rem;
-  text-align: right;
+  text-align: center;
   width: 550px;
   font-weight: 100;
 }
@@ -53,20 +53,17 @@ h1 {
 }
 
 .product-btn:hover {
-  background-color: #b6b9b8;
   box-shadow: 0px 15px 20px rgba(168, 170, 169, 0.4);
-  color: #fff;
   transform: translateY(-7px);
+  background-color: #e75752;
+  color: #f5f5f5;
 }
 
 .btnline1 {
   font-size: 3em;
   font-family: "Rock 3D", cursive;
 }
-.product-btn:hover {
-  background-color: #e75752;
-  color: #f5f5f5;
-}
+
 .arrow {
   color: #e75752;
   padding-bottom: 50px;
@@ -76,11 +73,59 @@ h1 {
   font-size: 1.5rem;
 }
 
+.btnline3 {
+  font-size: 2em;
+  font-family: "Rock 3D", cursive;
+}
+
+.back-to-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.back-to-top-button {
+  width: 400px;
+  height: 80px;
+  font-weight: 500;
+  color: #e44b45;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  line-height: 170%;
+}
+.back-to-top-button:hover {
+  box-shadow: 0px 15px 20px rgba(168, 170, 169, 0.4);
+  transform: translateY(-7px);
+  background-color: #e75752;
+  color: #f5f5f5;
+}
+
 footer {
   display: flex;
   justify-content: end;
 }
 .copyright {
   padding: 5px;
-  color: rgb(58, 58, 58);
+  color: #e44b45;
+}
+@media (max-width: 28.75em) {
+  .back-to-top {
+    width: 100vw;
+  }
+  .btnline3 {
+    font-size: 3rem;
+    padding: 25px;
+  }
+  .back-to-top-button {
+    width: fit-content;
+    line-height: 100%;
+  }
+  footer {
+    justify-content: center;
+  }
 }
