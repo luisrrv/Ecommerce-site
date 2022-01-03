@@ -34,6 +34,16 @@
   display: flex;
   flex-direction: column;
 }
+.product-container > h4 {
+  color: #e44b45;
+}
+.product-container > p {
+  text-align: justify;
+}
+.product-container > p:nth-child(4) {
+  color: #e44b45;
+  font-size: 1.5rem;
+}
 
 .product-img {
   padding: 50px;
