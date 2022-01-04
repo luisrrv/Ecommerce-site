@@ -33,6 +33,8 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
+  overflow: visible;
+  justify-content: space-between;
 }
 .product-container > h4 {
   color: #e44b45;
@@ -40,9 +42,20 @@
 .product-container > p {
   text-align: justify;
 }
+/*
+.product-container > p:nth-child(3) {
+  display: none;
+  z-index: 200;
+}
+.product-img:hover + .product-container > p:nth-child(3) {
+  display: initial;
+}
+*/
 .product-container > p:nth-child(4) {
   color: #e44b45;
-  font-size: 1.5rem;
+  font-size: 1.5em;
+  align-self: flex-end;
+  padding-top: 15px;
 }
 
 .product-img {
