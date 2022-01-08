@@ -26,6 +26,25 @@ h1 {
   width: 550px;
   font-weight: 100;
 }
+.slides {
+  animation-name: fader;
+  animation-duration: 10000ms;
+  animation-delay: 0ms;
+}
+@keyframes fader {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 .button {
   display: flex;
