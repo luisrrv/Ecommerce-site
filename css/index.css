@@ -12,6 +12,7 @@ html {
   background: #eeeeee;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
+  transition: 400ms;
 }
 
 @media (max-width: 75em) {
