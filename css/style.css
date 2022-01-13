@@ -120,7 +120,7 @@ h1 {
   line-height: 100%;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
-  margin-bottom: 20px;
+  margin-bottom: 175px;
 }
 
 #myBtn:hover {
@@ -132,12 +132,42 @@ h1 {
 
 footer {
   display: flex;
-  justify-content: end;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 30px;
+  background-color: #f7f7f7;
+  bottom: 0;
 }
+
+.bottom-logo {
+  font-family: "Rock 3D", cursive;
+  color: #e44b45;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 3rem;
+  text-align: center;
+}
+.introduction4 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 100;
+  color: #2c2c2c;
+}
+
 .copyright {
   padding: 5px;
+  color: #2c2c2c;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 100;
+}
+.copyright > a:visited {
+  color: #2c2c2c;
+}
+.copyright > a:hover {
   color: #e44b45;
 }
+
 @media (max-width: 28.75em) {
   .back-to-top {
     width: 100vw;
@@ -154,9 +184,16 @@ footer {
     height: 6%;
     font-size: 70%;
     text-align: center;
+    margin-bottom: 10px;
   }
   footer {
     justify-content: center;
+    padding-bottom: 100px;
+  }
+
+  .copyright {
+    font-size: 1.5rem;
+    font-weight: 100;
   }
 }
 
@@ -172,7 +209,7 @@ footer {
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100vw;
-  height: 25vh;
+  height: 50%;
 }
 .about {
   text-align: center;
@@ -231,8 +268,7 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 10vh;
-  margin-top: 50px;
+  height: 57%;
 }
 .info-section3 > .contact {
   font-size: 3em;
@@ -244,4 +280,8 @@ footer {
   position: absolute;
   bottom: 0;
   color: #e44b45;
+}
+
+.content {
+  height: 100vh;
 }

@@ -14,6 +14,15 @@ html {
   font-weight: 700;
   transition: 400ms;
 }
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  color: #e44b45;
+}
 
 @media (max-width: 75em) {
   html {
