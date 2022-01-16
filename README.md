@@ -1,5 +1,12 @@
 # Ecommerce-site
 
-If you want to run the server use the next command
+If you want to run the server
 
-```
+
+1. Go to the directory server and run the following code
+
+```npm install```
+
+2. Now run the next code
+
+```npm start```
