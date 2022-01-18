@@ -223,7 +223,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/assets/5.jpeg);
+  background-image: url("/assets/5.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -303,4 +303,64 @@ footer {
 
 .content {
   height: 100vh;
+}
+
+/* Form page */
+
+.form-container {
+  width: 80vw;
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  text-align: center;
+}
+.form-title {
+  font-family: "Rock 3D", cursive;
+  margin-bottom: 30px;
+}
+.input-title {
+  color: #e44b45;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.submit-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+  height: 75px;
+  background-color: #f5f5f5;
+  border: none;
+  text-decoration: none;
+  color: #e44b45;
+  font-size: 2rem;
+  font-family: "Rock 3D", cursive;
+  text-transform: uppercase;
+  align-self: center;
+  border-radius: 35px;
+  line-height: 100%;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+.submit-btn:hover {
+  box-shadow: 0px 15px 20px rgba(168, 170, 169, 0.4);
+  transform: translateY(-7px);
+  background-color: #e75752;
+  color: #f5f5f5;
+}
+.form-box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  text-decoration: none;
+  height: 50px;
+  font-size: 1.8rem;
+  color: #2c2c2c;
+  border-radius: 10px;
+}
+
+.form-box:focus {
+  outline: none;
 }
