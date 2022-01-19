@@ -13,14 +13,13 @@ productRouter.post('/', async (req, res) => {
     description: req.body.description,
     price: req.body.price,
     url: req.body.url
-  })
-  const savedProduct = await product.save()
-  .then(data => {
-    res.json(data)
-  })
-  .catch(err => {
+  });
+  try{
+    const savedProduct = await product.save();
+    res.json(savedProduct);
+  } catch(err) {
     res.json({ message: err })
-  })
+  }
 })
 
 module.exports = productRouter;
