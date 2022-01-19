@@ -3,8 +3,14 @@ const Product = require('../../models/Products')
 
 const productRouter = express.Router()
 
-productRouter.get('/', (req, res) => {
-  res.send('We are on products')
+//get Data from data base
+productRouter.get('/', async (req, res) => {
+  try {
+    const products = await Product.find();
+    res.json(products)
+  } catch(err) {
+    res.json({ message: err})
+  }
 })
 //post request to add data to the database
 productRouter.post('/', async (req, res) => {
