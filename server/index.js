@@ -13,7 +13,16 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 app.use(cors())
 app.use(express.static(path.join(__dirname, "../public")))
 
-
-app.listen(process.env.HOST || 3000, () => {
-  console.log(`server listening at http://localhost:${process.env.HOST || 3000}`);
+mongoose.connect(process.env.MONGO_DB, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+}, (err, _) => {
+  if(err) {
+    console.log('connection error')
+    console.log(err)
+  } else {
+    app.listen(process.env.HOST || 3000, () => {
+    console.log(`server listening at http://localhost:${process.env.HOST || 3000}`);
 })
+  }
+});
