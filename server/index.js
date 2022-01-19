@@ -1,15 +1,13 @@
-import express from 'express';
-import path from 'path';
-import { fileURLToPath  } from 'url';
-import dotenv from 'dotenv'
-import cors from 'cors'
-import mongoose from 'mongoose';
-import productRouter from '../server/Routes/products/products.js';
+const express = require('express');
+const path = require('path');
+const dotenv = require('dotenv');
+const cors = require('cors');
+const mongoose = require('mongoose')
+const productRouter = require('../server/Routes/products/products')
 
 dotenv.config({path: ".env"})
 console.log(process.env.HOST)
 const app = express();
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 app.use(cors())
 // Routes coming from products
