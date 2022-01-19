@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath  } from 'url';
 import dotenv from 'dotenv'
 import cors from 'cors'
+import mongoose from 'mongoose';
 
 dotenv.config({path: ".env"})
 console.log(process.env.HOST)
