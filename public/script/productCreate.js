@@ -9,17 +9,14 @@ var price = '';
 
 const getTitleValue = (event) => {
   title = event.target.value
-  console.log(title)
 }
 
 const getDescriptionValue = (event) => {
   description = event.target.value
-  console.log(description)
 }
 
 const getPriceValue = (event) => {
   price = event.target.value
-  console.log(price)
 }
 
 titleInput.addEventListener('change', getTitleValue)
