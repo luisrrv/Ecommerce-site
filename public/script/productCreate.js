@@ -44,8 +44,12 @@ const postData = () => {
   .then(response => console.log('Success:', response));
 }
 const onSubmit = () => {
-  postData();
-  location.reload();
+  if(data.title != '' && data.description != '' && data.price != '' && data.url != ''){
+    postData();
+    location.reload();
+  } else {
+    alert('Please complete the form')
+  }
 }
 
 submitButton.addEventListener('click', onSubmit);
