@@ -11,17 +11,17 @@ const getTitleValue = (event) => {
 }
 
 const getDescriptionValue = (event) => {
-  title = event.target.value
+  description = event.target.value
   console.log(description)
 }
 
-
 titleInput.addEventListener('change', getTitleValue)
-
-
+descriptionInput.addEventListener('change', getDescriptionValue)
 
 const onSubmit = () => {
-  console.log('hola papis')
+  console.log(title)
+  console.log(description)
+  // location.reload();
 }
 
 submitButton.addEventListener('click', onSubmit);
