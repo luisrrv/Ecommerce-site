@@ -7,6 +7,7 @@ const urlInput = document.getElementById('url');
 var title = '';
 var description = '';
 var price = '';
+var url = '';
 
 const getTitleValue = (event) => {
   title = event.target.value
@@ -20,9 +21,14 @@ const getPriceValue = (event) => {
   price = event.target.value
 }
 
-titleInput.addEventListener('change', getTitleValue)
-descriptionInput.addEventListener('change', getDescriptionValue)
-priceInput.addEventListener('change', getPriceValue)
+const getUrlValue = (event) => {
+  url = event.target.value
+}
+
+titleInput.addEventListener('change', getTitleValue);
+descriptionInput.addEventListener('change', getDescriptionValue);
+priceInput.addEventListener('change', getPriceValue);
+urlInput.addEventListener('change', getUrlValue);
 
 
 const onSubmit = () => {
