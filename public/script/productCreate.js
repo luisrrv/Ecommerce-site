@@ -35,6 +35,7 @@ const onSubmit = () => {
   console.log(title)
   console.log(description)
   console.log(price)
+  console.log(url)
   // location.reload();
 }
 
