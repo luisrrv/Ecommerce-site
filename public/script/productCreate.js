@@ -35,12 +35,17 @@ urlInput.addEventListener('change', getUrlValue);
 
 
 
-// const postData = () => {
-//   fetch('/products', {
-//     method: 'POST',
-//     body: JSON.stringify()
-//   })
-// }
+const postData = () => {
+  fetch('/products', {
+    method: 'POST',
+    body: JSON.stringify(data),
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  }).then(res => res.json())
+  .catch(error => console.log('Error:', error))
+  .then(response => console.log('Success:', response));
+}
 const onSubmit = () => {
   console.log(data)
   // location.reload();
