@@ -3,6 +3,7 @@ const submitButton = document.getElementById('submit-btn');
 const titleInput = document.getElementById('title');
 const descriptionInput = document.getElementById('description');
 const priceInput = document.getElementById('price');
+const urlInput = document.getElementById('url');
 var title = '';
 var description = '';
 var price = '';
@@ -22,6 +23,7 @@ const getPriceValue = (event) => {
 titleInput.addEventListener('change', getTitleValue)
 descriptionInput.addEventListener('change', getDescriptionValue)
 priceInput.addEventListener('change', getPriceValue)
+
 
 const onSubmit = () => {
   console.log(title)
