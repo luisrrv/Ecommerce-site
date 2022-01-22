@@ -45,7 +45,7 @@ const postData = () => {
 }
 const onSubmit = () => {
   postData();
-  // location.reload();
+  location.reload();
 }
 
 submitButton.addEventListener('click', onSubmit);
