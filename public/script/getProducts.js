@@ -14,11 +14,11 @@ const fetchData = async () => {
 fetchData().then(response => {
   response.map((element) => {
     productsDiv.insertAdjacentHTML('afterbegin', `
-      <div class="products-all">
-        <h1>${element.title}</h1>
-        <img class="product-img" src="${element.url}" style="width:100px">
+      <div class="product-container">
+        <h4>${element.title}</h4>
+        <img class="product-img" src="${element.url}">
         <p>${element.description}</p>
-        <span>Price: ${element.price}¥</span>
+        <span class="price">Price: <span class="amount">¥${element.price}</span></span>
       </div>
     `)
   })
