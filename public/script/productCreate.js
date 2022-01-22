@@ -32,9 +32,6 @@ descriptionInput.addEventListener('change', getDescriptionValue);
 priceInput.addEventListener('change', getPriceValue);
 urlInput.addEventListener('change', getUrlValue);
 
-
-
-
 const postData = () => {
   fetch('/products', {
     method: 'POST',
@@ -47,7 +44,7 @@ const postData = () => {
   .then(response => console.log('Success:', response));
 }
 const onSubmit = () => {
-  console.log(data)
+  postData();
   // location.reload();
 }
 
