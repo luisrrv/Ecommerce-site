@@ -7,11 +7,12 @@
   font-weight: 100;
 }
 .products-section-header {
+  text-align: center;
   max-width: 640px;
   margin: 0 auto 6rem auto;
   color: #e44b45;
   font-family: "Rock 3D", cursive;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 @media (max-width: 28.75em) {
@@ -38,9 +39,11 @@
 }
 .product-container > h4 {
   color: #e44b45;
+  text-align: center;
 }
 .product-container > p {
   text-align: justify;
+  font-weight: 100;
 }
 /*
 .product-container > p:nth-child(3) {
@@ -59,7 +62,22 @@
 }
 
 .product-img {
-  padding: 50px;
+  padding: 100px;
+  max-height: 500px;
+}
+
+.price {
+  text-align: end;
+  margin-top: 10px;
+  font-family: "Rock 3D", cursive;
+  text-transform: uppercase;
+  color: #2d2d2d;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+.amount {
+  color: #e44b45;
+  font-family: "Roboto", sans-serif;
 }
 
 @media (max-width: 75em) {
