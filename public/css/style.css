@@ -329,6 +329,8 @@ footer {
   color: #e44b45;
   font-size: 2rem;
   font-weight: 100;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .submit-btn {
   margin-top: 20px;
@@ -356,8 +358,6 @@ footer {
   cursor: pointer;
 }
 .form-box {
-  margin-top: 20px;
-  margin-bottom: 20px;
   border: none;
   text-decoration: none;
   height: 50px;
@@ -365,9 +365,16 @@ footer {
   color: #2c2c2c;
   border-radius: 10px;
 }
+#price {
+  width: 200px;
+  margin: auto;
+}
 
 .form-box:focus {
   outline: none;
+}
+#url {
+  width: max-content;
 }
 input[type="file"] {
   margin-top: 20px;
@@ -405,4 +412,69 @@ input[type="file"]:active {
   border-radius: 10px;
   padding: 5px;
   cursor: pointer;
+}
+#urlform {
+  display: none;
+}
+#fileform {
+  display: none;
+}
+
+.urlbtn {
+  font-family: "Rock 3D", cursive;
+  font-weight: 100;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  height: 60px;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  align-self: center;
+  background-color: #ffffff;
+  color: #434343;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+.filebtn {
+  font-family: "Rock 3D", cursive;
+  font-weight: 100;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  height: 60px;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  align-self: center;
+  background-color: #ffffff;
+  color: #434343;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+.urlbtn:hover {
+  box-shadow: 0px 15px 20px rgba(168, 170, 169, 0.4);
+  transform: translateY(-7px);
+  background-color: #ffffff;
+  align-self: center;
+}
+.filebtn:hover {
+  box-shadow: 0px 15px 20px rgba(168, 170, 169, 0.4);
+  transform: translateY(-7px);
+  background-color: #ffffff;
+  align-self: center;
+}
+.urlbtn:active {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(1px);
+}
+.filebtn:active {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(1px);
 }
