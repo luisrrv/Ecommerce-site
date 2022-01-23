@@ -48,10 +48,21 @@
         <input id="description" class="form-box" type="text" style="height: 200px;">
         <h6 class="input-title">Price (¥)</h6>
         <input id='price' type="number" min="1" max="1000000" step="any" class="form-box">
+        <h6 class="input-title">Image</h6>
+        <span>
+        <button onclick="showURL()" class="urlbtn">URL</button>
+        <button onclick="showFile()" class="filebtn">File</button>
+        </span>
+        
+
+        <div id="urlform">
         <h6 class="input-title">URL</h6>
         <input id="url" class="form-box" type="url">
-        <h6 class="input-title">Image</h6>
+        </div>
+        <div id="fileform">
+        <h6 class="input-title">File</h6>
         <input id="file-upload" type="file" />
+        </div>
 
         <input id="submit-btn"class="submit-btn" type="button" value="Submit">
     </div>
@@ -67,5 +78,6 @@
     </footer>
 
     <script src="./script/productCreate.js"></script>
+    <script src="./script/imgform.js"></script>
 </body>
 </html>
