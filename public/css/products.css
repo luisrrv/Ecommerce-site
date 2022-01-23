@@ -13,16 +13,20 @@
   color: #e44b45;
   font-family: "Rock 3D", cursive;
   font-size: 4rem;
+  font-weight: 100;
 }
 
 @media (max-width: 28.75em) {
   .products-section-header {
     font-size: 6rem;
   }
+  .price .amount {
+    font-size: 3rem;
+  }
 }
 .products {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 0.2rem;
   width: 100%;
   max-width: 1280px;
@@ -40,10 +44,12 @@
 .product-container > h4 {
   color: #e44b45;
   text-align: center;
+  font-size: 1.5rem;
 }
 .product-container > p {
-  text-align: justify;
+  text-align: center;
   font-weight: 100;
+  font-size: 1.2rem;
 }
 /*
 .product-container > p:nth-child(3) {
@@ -72,7 +78,7 @@
   font-family: "Rock 3D", cursive;
   text-transform: uppercase;
   color: #2d2d2d;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 100;
 }
 .amount {
@@ -88,5 +94,8 @@
   .product-container {
     grid-template-columns: 1fr;
     font-size: 200%;
+  }
+  .amount {
+    font-size: 3rem;
   }
 }

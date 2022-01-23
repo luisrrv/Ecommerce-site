@@ -244,6 +244,7 @@ footer {
   font-size: 3rem;
   color: #2c2c2c;
   margin-top: 40px;
+  font-weight: 100;
 }
 .info-section2 {
   display: flex;
@@ -280,6 +281,7 @@ footer {
   text-align: center;
   font-size: 7em;
   color: #2c2c2c;
+  font-weight: 100;
 }
 .info-section3 {
   display: flex;
@@ -321,6 +323,7 @@ footer {
   font-family: "Rock 3D", cursive;
   margin-bottom: 30px;
   color: #434343;
+  font-weight: 100;
 }
 .input-title {
   color: #e44b45;

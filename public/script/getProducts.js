@@ -18,7 +18,7 @@ fetchData().then(response => {
         <h4>${element.title}</h4>
         <img class="product-img" src="${element.url}">
         <p>${element.description}</p>
-        <span class="price">Price: <span class="amount">¥${element.price}</span></span>
+        <span class="price"><span class="amount">¥${element.price}</span></span>
       </div>
     `)
   })
