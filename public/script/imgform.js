@@ -1,6 +1,7 @@
 function showURL() {
   var x1 = document.getElementById("urlform");
   var y1 = document.getElementById("fileform");
+  document.getElementById('file-upload').value = '';
   if (x1.style.display === "block") {
     x1.style.display = "none";
     y1.style.display = "none";
@@ -12,6 +13,7 @@ function showURL() {
 function showFile() {
   var x2 = document.getElementById("fileform");
   var y2 = document.getElementById("urlform");
+  document.getElementById('url').value = '';
   if (x2.style.display === "block") {
     x2.style.display = "none";
     y2.style.display = "none";
