@@ -42,6 +42,10 @@
   justify-content: space-between;
   border-radius: 25px;
 }
+.coming-soon-container {
+  background-color: #f3f3f3;
+  justify-content: center;
+}
 .product-container > h4 {
   color: #e44b45;
   text-align: center;
@@ -53,6 +57,10 @@
   text-align: center;
   font-weight: 100;
   font-size: 1.2rem;
+}
+.coming-soon-text {
+  font-size: 2rem;
+  font-weight: 100;
 }
 /*
 .product-container > p:nth-child(3) {
