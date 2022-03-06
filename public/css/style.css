@@ -299,7 +299,7 @@ footer {
 .cart-title {
   font-family: "Rock 3D", cursive;
   text-align: center;
-  font-size: 7em;
+  font-size: 5em;
   color: #2c2c2c;
   font-weight: 100;
 }
@@ -312,7 +312,7 @@ footer {
   height: 57%;
 }
 .info-section3 > .contact {
-  font-size: 3em;
+  font-size: 2em;
   margin-top: 10px;
   text-align: center;
 }
