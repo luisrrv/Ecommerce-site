@@ -21,10 +21,13 @@ h1 {
   font-size: 5rem;
 }
 .introduction2 {
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   text-align: center;
   width: 550px;
   font-weight: 100;
+  text-transform: lowercase;
+  color: #2c2c2c;
 }
 
 .slides {
@@ -300,7 +303,7 @@ footer {
   font-family: "Rock 3D", cursive;
   text-align: center;
   font-size: 5em;
-  color: #2c2c2c;
+  color: #e44b45;
   font-weight: 100;
 }
 .info-section3 {
@@ -342,11 +345,11 @@ footer {
 .form-title {
   font-family: "Rock 3D", cursive;
   margin-bottom: 30px;
-  color: #434343;
+  color: #e44b45;
   font-weight: 100;
 }
 .input-title {
-  color: #e44b45;
+  color: #434343;
   font-size: 2rem;
   font-weight: 100;
   margin-top: 20px;
