@@ -143,6 +143,120 @@
     width: 80px;
   }
   ::placeholder {
-    color: #f7f7f7;
+    color: #e44b45;
+  }
+  .search:focus {
+    width: 270px;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .topnav {
+    justify-content: center;
+    margin: 0 1rem;
+  }
+  .topnav input[type="text"] {
+    width: 80px;
+  }
+  ::placeholder {
+    color: #e44b45;
+  }
+  .search:focus {
+    width: 270px;
+  }
+}
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .topnav {
+    justify-content: center;
+    margin: 0 1rem;
+  }
+  .topnav input[type="text"] {
+    width: 80px;
+  }
+  ::placeholder {
+    color: #e44b45;
+  }
+  .search:focus {
+    width: 270px;
+  }
+}
+
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+  .topnav {
+    justify-content: center;
+    margin: 0 1rem;
+  }
+  .topnav input[type="text"] {
+    width: 80px;
+  }
+  ::placeholder {
+    color: #e44b45;
+  }
+  .search:focus {
+    width: 270px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .topnav {
+    justify-content: center;
+    margin: 0 1rem;
+  }
+  .topnav input[type="text"] {
+    width: 80px;
+  }
+  ::placeholder {
+    color: #e44b45;
+  }
+  .search:focus {
+    width: 270px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .topnav {
+    justify-content: center;
+    margin: 0 1rem;
+  }
+  .topnav input[type="text"] {
+    width: 80px;
+  }
+  ::placeholder {
+    color: #e44b45;
+  }
+  .search:focus {
+    width: 270px;
+  }
+}
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  .topnav {
+    justify-content: center;
+    margin: 0 1rem;
+  }
+  .topnav input[type="text"] {
+    width: 80px;
+  }
+  ::placeholder {
+    color: #e44b45;
+  }
+  .search:focus {
+    width: 270px;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .topnav {
+    justify-content: center;
+    margin: 0 1rem;
+  }
+  .topnav input[type="text"] {
+    width: 80px;
+  }
+  ::placeholder {
+    color: #e44b45;
+  }
+  .search:focus {
+    width: 270px;
   }
 }
