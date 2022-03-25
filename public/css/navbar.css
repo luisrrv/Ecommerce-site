@@ -93,6 +93,9 @@
 .expandright {
   left: auto;
   right: 49px; /* Button width-1px */
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  caret-color: #e44b45;
 }
 
 .expandright:focus {
@@ -100,7 +103,7 @@
 }
 
 ::placeholder {
-  color: #e75752;
+  color: #000000;
 }
 
 .topnav input[type="text"] {
