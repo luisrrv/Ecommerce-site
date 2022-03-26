@@ -225,6 +225,18 @@ footer {
   width: 100vw;
   height: 51%;
 }
+.quotes-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../assets/bichoface.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100vw;
+  height: 51%;
+}
 .about {
   text-align: center;
   font-weight: 100;
@@ -243,6 +255,18 @@ footer {
   margin-top: 40px;
   font-weight: 100;
 }
+.why {
+  font-family: "Rock 3D", cursive;
+  text-align: center;
+  font-size: 3rem;
+  color: #e0e0e0;
+  margin-top: 40px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.whyspan {
+  color: #e44b45;
+}
 .info-section2 {
   display: flex;
   flex-direction: column;
@@ -250,6 +274,50 @@ footer {
   align-items: center;
   width: 100vw;
   height: 10vh;
+}
+.info-section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background-color: #000000;
+  color: #e0e0e0;
+}
+.info-section4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 40vh;
+  background-color: #fafafa;
+  color: #000000;
+}
+.quotes-btn {
+  width: 300px;
+  height: 80px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #e44b45;
+  background-color: rgb(0, 0, 0);
+  border: solid 1px;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.quotes-btn:hover {
+  box-shadow: 0px 15px 20px rgba(168, 170, 169, 0.4);
+  transform: translateY(-7px);
+  background-color: #e75752;
+  color: #f5f5f5;
+  border: none;
 }
 .contact {
   font-weight: 100;
@@ -287,6 +355,11 @@ footer {
   align-items: center;
   width: 100vw;
   height: 57%;
+}
+.info-section4 > .contact {
+  font-size: 2em;
+  margin-top: 10px;
+  text-align: center;
 }
 .info-section3 > .contact {
   font-size: 2em;
@@ -483,6 +556,36 @@ input[type="file"]:active {
   transform: translateY(1px);
 }
 
+@media (max-width: 28.75em) {
+  .info-section {
+    background-color: #000000;
+  }
+  .quotes-section {
+    background-color: #000000;
+  }
+  .quotes-btn:hover {
+    box-shadow: none;
+    transform: translateY(-7px);
+    background-color: #e75752;
+    color: #f5f5f5;
+    border: none;
+  }
+}
+@media (max-width: 75em) {
+  .info-section {
+    background-color: #000000;
+  }
+  .quotes-section {
+    background-color: #000000;
+  }
+  .quotes-btn:hover {
+    box-shadow: none;
+    transform: translateY(-7px);
+    background-color: #e75752;
+    color: #f5f5f5;
+    border: none;
+  }
+}
 /* iphone and ipad media queries */
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
