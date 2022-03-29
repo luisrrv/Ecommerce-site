@@ -228,7 +228,7 @@ footer {
 .quotes-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   background: url(../assets/bichoface.jpg);
   background-position: center;
@@ -240,8 +240,9 @@ footer {
 .about {
   text-align: center;
   font-weight: 100;
+  max-width: 80%;
   color: #e0e0e0;
-  padding: 10%;
+  padding: 0;
   font-size: 2rem;
   text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
     1px 1px 1px rgba(0, 0, 0, 0.5), 2px 2px 17px rgba(0, 0, 0, 0.89);
@@ -311,6 +312,7 @@ footer {
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
+  margin: 40px;
 }
 .quotes-btn:hover {
   box-shadow: 0px 15px 20px rgba(168, 170, 169, 0.4);
