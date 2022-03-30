@@ -9,7 +9,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: #e44b45;
+  color: #e44b45 !important;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -18,7 +18,7 @@
 
 .topnav a:hover {
   background-color: #e75752;
-  color: #f7f7f7;
+  color: #f7f7f7 !important;
   border-radius: 0;
 }
 

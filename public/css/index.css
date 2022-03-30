@@ -16,10 +16,11 @@ html {
 }
 a {
   text-decoration: none;
+  color: #000000;
 }
 a:visited {
   text-decoration: none;
-  color: #e44b45;
+  color: #000000;
 }
 a:hover {
   color: #e44b45;
