@@ -1,4 +1,4 @@
-# El Bicho Store 👕🐛
+# "El Bicho" Store 👕🐛
 ## A mock ecommerce site for people to upload any product with the theme of famous football player Cristiano Ronaldo aka "El Bicho".
 
 <p float="left">
@@ -10,7 +10,7 @@
 
 ### Built with NodeJS
 
-If you want to run the server
+If you want to run the server:
 
 
 1. Go to the directory server and run the following code
