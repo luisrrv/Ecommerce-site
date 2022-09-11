@@ -13,7 +13,7 @@
 If you want to run the server:
 
 
-1. Go to the directory server and run the following code:
+1. Go to the directory server and run the following:
 
 ```cd server```
 
