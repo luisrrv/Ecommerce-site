@@ -12,6 +12,7 @@
 
 If you want to run the server:
 
+### ⚙️ Setup
 
 1. Go to the directory server and run the following:
 
@@ -19,6 +20,6 @@ If you want to run the server:
 
 ```npm install```
 
-2. Now run the next code
+2. Now run the next code to run on localhost:
 
 ```npm start```
